@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    color: #474a54;
+    line-height: 1.6em;
+}
+
+a {
+    color: #3658b1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header,
+main {
+    padding: 0 20px;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link.active {
+    color: #474a54;
+}
+
+nav>a:hover,
+.nav-item>a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+section>* {
+    margin: 20px 0;
+}
+
+.social a {
+    color: #474a54;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+.navbar,
+.card-body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        text-align: center;
+    }
+}
+
+h2::after {
+    content: "";
+    background-color: #d9d9d9;
+    width: 120px;
+    height: 2px;
+    display: block;
+    margin: 12px 0;
+}
+
+.card {
+    border: 0;
+    background-color: transparent;
+}
+
+.card:hover {
+    opacity: 0.7;
+}
+
+.card-img,
+.card-img-top {
+    border-radius: calc(0.375rem - 1px);
+}
+
+.card-body {
+    color: #474a54;
+    padding: var(--bs-card-spacer-y) 0;
+}
+
+#top {
+    opacity: 0;
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    color: #474a54;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    bottom: 5%;
+    right: 5%;
+    transition: opacity 0.5s ease, background-color 0.3s ease;
+    z-index: 2;
+}
+
+#top.visible {
+    opacity: 0.8;
+}
+
+#top:hover {
+    opacity: 1;
+}
+
+footer {
+    background-color: #474a54;
+    padding: 4vw 12vw;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer>a {
+    color: #fff;
+}

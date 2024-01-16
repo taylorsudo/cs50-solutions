@@ -1,0 +1,7 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+Analysing the audio aura involves factors like Energy, Danceability, Tempo, and Valence. High Energy could suggest positivity, high Valence may be uplifting, and high Danceability might evoke a similar feel. Conversely, low scores in these aspects could imply the opposite.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+Our analysis is limited to the top 100, potentially missing the full spectrum of music. Music trends change, making it challenging to capture shifts. Moreover, personal interpretation plays a significant role—low Valence, Energy, and Danceability don't necessarily mean a song doesn't uplift the listener.
